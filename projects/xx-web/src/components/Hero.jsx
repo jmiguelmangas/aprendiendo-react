@@ -1,11 +1,12 @@
 import "./Hero.css"
 import { PrimaryText } from "./HeroComponents/PrimaryText"
+import { LocationAndButton } from "./HeroComponents/LocationAndButton"
 
 export function HeroSection (){
     return (
         <section className="Hero">
             <section className="text"><PrimaryText/></section>
-            <section className="locationAndButton"></section>
+            <section className="locationAndButton"><LocationAndButton/></section>
             <section className="secondtext"></section>
             <section className="CenterHero"></section>
             <section className="Javascript"></section>

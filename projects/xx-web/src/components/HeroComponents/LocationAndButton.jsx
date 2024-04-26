@@ -1,8 +1,11 @@
 import "./LocationAndButton.css"
-
+const location = ["Madrid","Spain"]
+import { Location } from "./LocationandButtonComponents/Location"
 export function LocationAndButton (){
-    const location = {city:"Madrid",country:"Spain"}
+    
     return(
-        
+        <section className="locationAndButton">
+            <Location location={location} />
+        </section>
     )
 }
