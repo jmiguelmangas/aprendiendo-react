@@ -1,0 +1,45 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(5,20%);
+    grid-template-rows: 20% 20% 20% 20% 1fr;
+    min-height: 40vh;
+    max-height: 50vh;
+}
+
+.avatar {
+    grid-column-start: 3;
+    grid-column-end: 6;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    background: red;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 50px;
+
+}
+.avatarImg{
+    width: 100%;
+    object-fit: cover; 
+    object-position: center;
+}
+
+.description{
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start:3;
+    grid-row-end: 6;
+    font-weight:300;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    line-height: 2rem;
+    place-content: center;
+    padding: 10px;
+}
+.descriptionText {
+    font-weight: 500;
+    color:gray;
+}
+.descriptionText .name{
+    color:whitesmoke
+}

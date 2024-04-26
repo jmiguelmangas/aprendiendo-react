@@ -1,0 +1,10 @@
+.header{
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: rgba(0, 0, 0, 30%);
+    padding: 10px;
+    border-radius: 2cap;
+    margin: 10px;
+}
