@@ -6,7 +6,7 @@ export function HeroSection (){
     return (
         <section className="Hero">
             <section className="text"><PrimaryText/></section>
-            <section className="locationAndButton"><LocationAndButton/></section>
+            <LocationAndButton/>
             <section className="secondtext"></section>
             <section className="CenterHero"></section>
             <section className="Javascript"></section>

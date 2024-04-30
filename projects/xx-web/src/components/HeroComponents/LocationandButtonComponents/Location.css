@@ -1,34 +1,13 @@
-.locationBentoCard{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 80% 20%;
-    min-height: 280px;
-
-    place-content: center;
-    justify-content: center;
-}
-.location {
-    position: relative; 
-    background: rgba(0, 0, 0, 30%);
-    border-radius: 2cap;
-    padding: 12px;
-    padding-left: 30px;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 0.4;
-    place-content: center;
-    justify-content: center;
-    color:whitesmoke;
-}
-
-
 .location::before {
     background-image: url("./images/madrid.webp");
     background-size: cover;
     opacity: 0.7;
     
 }
-.locationLogo .locationText .country .city .timezone {
+.locationLogo .locationText .country .city .timeZone {
     position:relative
+}
+.timeZone {
+    color:grey
 }
 
